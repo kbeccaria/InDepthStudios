@@ -413,13 +413,14 @@ a.icon {
 .header-two .header-thumb,
 .header-three .header-thumb,
 .header-four .header-thumb,
-.header-five .header-thumb {
+.header-five .header-thumb,
+.header-six .header-thumb {
   padding: 32px 20px 32px 20px !important;
 }
 
 .header-one, .header-two,
 .header-three, .header-four,
-.header-five {
+.header-five, .header-six {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
@@ -441,8 +442,19 @@ a.icon {
   background: url('../images/soundboard2.jpg') no-repeat;
 }
 .header-five {
-  background: url('../images/header-five-bg.jpg') no-repeat;
+  background: url('../images/logo.png') no-repeat;
 }
+.header-six {
+  background: url('../images/guitar.jpg') no-repeat;
+  height: 60vh !important;
+  min-height: 520px;
+  padding-top: 150px !important;
+}  
+.header-seven {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+  height: 60vh !important;
+  min-height: 520px;
+  padding-top: 150px !important;
 
 /* Portfolio section styles
 /* ========================================== */
